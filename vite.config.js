@@ -5,6 +5,6 @@ import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Curtis_3D_Portfolio/",
+  base: "/",
   plugins: [react(), svgr()],
 })
