@@ -2,7 +2,7 @@ import React from 'react';
 import {useState, useRef} from 'react';
 import {motion} from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import {Funkomepng } from '../assets';
+import {funkomepng } from '../assets';
 import {styles} from '../styles';
 import { EarthCanvas} from './canvas';
 import {SectionWrapper} from '../hoc';
@@ -70,14 +70,18 @@ emailjs.send(
     <motion.div 
     variants={slideIn('left',"tween", 0.2,1)}
     className="flex-[0.75] bg-black-100 p-8 rounded-2xl mx-auto">
-    <div>
-      <img src={Funkomepng}
-alt="Funkome"
-className="absolute inset-0 flex justify-end ml-[700px] mt-[30px] w-[150px]" />
+    
+    
+ <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
+ <div>
+      
     </div>
+ </div>
 <p className={styles.sectionSubText}>Get
  in Touch!</p>
-<h3 className={styles.sectionHeadText}>Contact me.</h3>
+<h3 className={styles.sectionHeadText2}>Contact me.<div className="flex w-[20%] h-[20%] items-end"><img src={funkomepng}
+alt="Funkome"
+className=" xl:ml-[160%] xs:ml-[60%]" /></div></h3>
 
 
 <form

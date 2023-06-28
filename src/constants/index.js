@@ -40,7 +40,7 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "experience",
       title: "Work Experience",
     },
     {
@@ -277,7 +277,7 @@ import {
     {
       name: "Calculator App",
       description:
-        "A fully functional calculator app that uses react hooks and state management as the main drivers. It allows the users to perform  calculations while commiting the prior calculation to memory. This prior calculation is displayed above for user convinience.",
+        "A fully functional calculator app that uses react hooks and state management as the main drivers. It allows the users to perform  calculations while commiting the prior calculation to memory. This prior calculation is displayed above.",
       tags: [
         {
           name: "reacthooks",
