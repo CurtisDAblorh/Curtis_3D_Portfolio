@@ -23,6 +23,7 @@
     "react-svg": "^16.1.17",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "rollup-plugin-npm": "^2.0.0",
     "three": "^0.152.2",
     "vite-plugin-svgr": "^3.2.0"
   },
