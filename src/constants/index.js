@@ -247,7 +247,8 @@ import {
         },
       ],
       image: ecommerce,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CurtisDAblorh/Ebuyer-Ecommerce-Site",
+      webpage_link:"",
     },
     {
       name: "3D_Portfolio",
@@ -272,7 +273,8 @@ import {
         },
       ],
       image: portfolio2,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CurtisDAblorh/Curtis_3D_Portfolio",
+      webpage_link:"https://curtisdablorh.github.io/Curtis_3D_Portfolio/",
     },
     {
       name: "Calculator App",
@@ -294,6 +296,7 @@ import {
       ],
       image: calc,
       source_code_link: "https://github.com/",
+      webpage_link:"",
     },
     {
       name: "HTML & CSS Portfolio",
@@ -314,7 +317,8 @@ import {
         },
       ],
       image: portfolio1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CurtisDAblorh/CurtisDAblorh_Portfolio.github.io",
+      webpage_link:"https://curtisdablorh.github.io/CurtisDAblorh_Portfolio.github.io/",
     },
     {
       name: "C++ Orthotic Exoskeleton",
@@ -335,7 +339,8 @@ import {
         },
       ],
       image: hand,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CurtisDAblorh/Orthotic_Exoskeleton",
+      webpage_link:"https://github.com/CurtisDAblorh/Orthotic_Exoskeleton",
     },
   ];
   

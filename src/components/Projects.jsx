@@ -11,7 +11,7 @@ import {projects} from '../constants'
 
 
 
-const ProjectCard= ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard= ({index, name, description, tags, image, source_code_link, webpage_link}) => {
 return (
 
  <motion.div 
@@ -49,7 +49,7 @@ className="w-1/2 h-1/2 object-contain" />
 
 
 <div className="absolute inset-0 flex justify-end m-1 mt-[50px] card-img_hover">
-  <div onClick={() => window.open (source_code_link, "_blank")}
+  <div onClick={() => window.open (webpage_link, "_blank")}
   className="bg-blue-500 rounded-2xl flex 
   justify-center w-20 h-10 items-center cursor-pointer ">
 <img src={webpage}
@@ -97,7 +97,9 @@ const Projects = () => {
 
     <motion.p variants={fadeIn("","",0.1,1)} 
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-Here are the projects I have made  show case experience 
+During my journey as a front-end developer, I have successfully completed some notable personal projects
+ that demonstrate my skills and expertise in creating interactive and visually appealing user interfaces.
+  Here is a summary of my project showcase so far:
     </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {projects.map((project, index)=> (
