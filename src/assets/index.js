@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import funkome from "./funkome.svg"
+// import funkome from "./funkome.svg"
 import funkomepng from "./funkome.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -53,7 +53,7 @@ portfolio2,
   bright,
   wagamama,
   wanstor,
-  funkome,
+  // funkome,
   funkomepng,
   logo,
   backend,
