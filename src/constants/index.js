@@ -152,7 +152,7 @@ import {
         "Utilised SQLcmd to enter Transact-SQL statements, creating databases and their filegroups on hosted client machines.",
         "Ran Powershell scripts in the Exchange Management shell to complete the more complex user requests.",
         "Managed the deployment of security updates and patches to highly vulnerable client end-user devices while liaising with the proactive and platform engineering teams to ensure the project was completed to a high standard.",
-        "Configured and utilised Manage Engine’s Desktop Central agent as well as MAAS360 to troubleshoot and resolve issues present on client laptops, tablets, phones and POS devices.",
+        "Configured and utilised Manage Engines Desktop Central agent as well as MAAS360 to troubleshoot and resolve issues present on client laptops, tablets, phones and POS devices.",
         "Supported users in a remote desktop environment via system admin tools such as server manager and further maintained said servers to improve overall efficiency.",
         "Liaised with and assisted where problem-solving was concerned, senior technical consultants, IT managers and developers on a range of projects carried out for client sites.",
       ],
